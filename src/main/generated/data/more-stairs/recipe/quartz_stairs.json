@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "tag": "more-stairs:quartz_blocks"
-    }
+    "#": "#more-stairs:quartz_blocks"
   },
   "pattern": [
     "#  ",

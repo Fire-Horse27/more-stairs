@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "minecraft:purpur_block"
+    "#": "minecraft:pale_oak_planks"
   },
   "pattern": [
     "#  ",
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:purpur_stairs"
+    "id": "minecraft:pale_oak_stairs"
   }
 }
