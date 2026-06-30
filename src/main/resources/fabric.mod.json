@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "template",
+	"version": "${version}",
+	"name": "template",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Fire-Horse27"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/template/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fire_horse27.template.Template"
+		],
+		"client": [
+			"fire_horse27.template.TemplateClient"
+		],
+		"fabric-datagen": [
+			"fire_horse27.template.TemplateDataGenerator"
+		]
+	},
+	"mixins": [
+		"template.mixins.json",
+		{
+			"config": "template.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
